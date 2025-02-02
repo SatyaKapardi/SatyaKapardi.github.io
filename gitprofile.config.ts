@@ -114,18 +114,18 @@ const CONFIG = {
     {
       name: 'Amazon ML Summer School',
       year: 'August 2022',
-      link: 'https://example.com',
+      link: 'https://drive.google.com/file/d/1LhVE4h8gz-cJzk55r1xcDZXRr2f7ZSN7/view?usp=sharing',
     },
     {
       name: 'AWS Cloud Foundations',
       year: 'November 2023',
-      link: 'https://example.com',
+      link: 'https://drive.google.com/file/d/1eK1h-Xyo2cTb-LWv8kvDoHNznpEAwUUk/view?usp=sharing',
     },
     {
       name: 'Neural Networks and Deep Learning',
       body: 'DeepLearning.AI',
       year: 'October 2021',
-      link: 'https://example.com',
+      link: 'https://coursera.org/share/9e5ba2289011b1c5d6f658eb40b48b6e',
     },
 
   ],
