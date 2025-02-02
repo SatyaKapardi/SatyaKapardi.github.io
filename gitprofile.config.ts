@@ -60,7 +60,7 @@ const CONFIG = {
   },
   social: {
     linkedin: 'satyakapardi',
-    website: 'https://www.arifszn.com',
+    website: 'https://satyakapardi.github.io/',
     phone: '+1 (872) 288-5588',
     email: 'bskapardi2002@gmail.com',
   },
