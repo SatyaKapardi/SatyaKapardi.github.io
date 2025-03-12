@@ -30,6 +30,7 @@ import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
+import InterestCard from './interest-card';
 
 /**
  * Renders the GitProfile component.
@@ -240,6 +241,12 @@ const GitProfile = ({ config }: { config: Config }) => {
                       <EducationCard
                         loading={loading}
                         educations={sanitizedConfig.educations}
+                      />
+                    )}
+                    {sanitizedConfig.interests?.shows?.display && (
+                      <InterestCard
+                        loading={loading}
+                        shows={sanitizedConfig.interests.shows}
                       />
                     )}
                   </div>
