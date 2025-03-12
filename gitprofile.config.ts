@@ -53,6 +53,42 @@ const CONFIG = {
     },
 
   },
+  interests: {
+    shows: {
+      header: 'TV Shows & Series I Love',
+      display: true,
+      items: [
+        {
+          title: 'Breaking Bad',
+          description: 'A high school chemistry teacher turned methamphetamine manufacturer partners with a former student to secure his family\'s financial future.',
+          imageUrl: 'https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg',
+          link: 'https://www.imdb.com/title/tt0903747/',
+          platform: 'Netflix'
+        },
+        {
+          title: 'Stranger Things',
+          description: 'When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.',
+          imageUrl: 'https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
+          link: 'https://www.imdb.com/title/tt4574334/',
+          platform: 'Netflix'
+        },
+        {
+          title: 'Money Heist',
+          description: 'An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.',
+          imageUrl: 'https://m.media-amazon.com/images/M/MV5BODI0ZTljYTMtODQ1NC00NmI0LTk1YWUtN2FlNDM1MDExMDlhXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg',
+          link: 'https://www.imdb.com/title/tt6468322/',
+          platform: 'Netflix'
+        },
+        {
+          title: 'The Witcher',
+          description: 'Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.',
+          imageUrl: 'https://m.media-amazon.com/images/M/MV5BN2FiOWU4YzYtMzZiOS00MzcyLTlkOGEtOTgwZmEwMzAxMzA3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
+          link: 'https://www.imdb.com/title/tt5180504/',
+          platform: 'Netflix'
+        }
+      ]
+    }
+  },
   seo: {
     title: 'Portfolio of Satya Kapardi',
     description: '',
@@ -158,7 +194,7 @@ const CONFIG = {
       author: 'Srisatya Kapardi Budi',
       link: 'https://ieeexplore.ieee.org/document/10072540',
       description:
-        'This study investigates the application of deep learning algorithms in brain-computer interface (BCI) technology to analyze emotional responses through EEG sensor data. By examining how brainwave patterns correlate with different emotional states, the research aims to offer valuable insights into how emotions can be monitored and understood in real time. While the primary focus is on emotional response analysis, the potential applications extend beyond just entertainment. In the field of mental health care, this approach could be utilized to track the effects of medication on patients’ emotional states, providing more precise data for understanding mood fluctuations. Such analysis could support the development of more personalized treatment strategies, improving outcomes for patients.',
+        'This study investigates the application of deep learning algorithms in brain-computer interface (BCI) technology to analyze emotional responses through EEG sensor data. By examining how brainwave patterns correlate with different emotional states, the research aims to offer valuable insights into how emotions can be monitored and understood in real time. While the primary focus is on emotional response analysis, the potential applications extend beyond just entertainment. In the field of mental health care, this approach could be utilized to track the effects of medication on patients\' emotional states, providing more precise data for understanding mood fluctuations. Such analysis could support the development of more personalized treatment strategies, improving outcomes for patients.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
