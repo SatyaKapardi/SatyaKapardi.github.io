@@ -1,4 +1,9 @@
-import { ExternalProject } from './external-project';
+export interface ExternalProject {
+  title: string;
+  description: string;
+  imageUrl: string;
+  link: string;
+}
 
 export interface SanitizedGithub {
   username: string;
@@ -16,6 +21,15 @@ export interface SanitizedSocial {
   website?: string;
   phone?: string;
   email?: string;
+  mastodon?: string;
+  researchGate?: string;
+  reddit?: string;
+  threads?: string;
+  youtube?: string;
+  udemy?: string;
+  skype?: string;
+  telegram?: string;
+  stackOverflow?: string;
 }
 
 export interface SanitizedExperience {
